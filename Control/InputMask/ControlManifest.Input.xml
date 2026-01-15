@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="BalaControls" constructor="InputMask" version="1.0.0" display-name-key="Input Mask Control" description-key="Formats phone numbers automatically" control-type="standard">
+    <external-service-usage enabled="false"></external-service-usage>
+    <property name="maskedValue" display-name-key="Phone Number" description-key="The field to mask" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/InputMask.css" order="1" />
+    </resources>
+  </control>
+</manifest>
